@@ -1,2 +1,2 @@
-# marcheschess.github.io
-The Marches Chess League Site
+# marcheschessleague.github.io
+A web site for the developing marches chess league.
