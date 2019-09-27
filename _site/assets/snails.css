@@ -1,0 +1,19 @@
+tr {
+  text-align: center;}
+
+.pairings-table, tr, td, th {
+  background-color: #fdfdfd;
+  margin-bottom: 25px;
+  width: 570px;
+  border-collapse: collapse;
+  border: 2px solid silver;}
+
+.pairings-table, th {
+  background-color: silver;
+  margin: 2px;
+  width: 570px;
+  border-collapse: collapse;
+  border: 2px solid silver;
+  text-align: center;}
+
+

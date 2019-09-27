@@ -30,13 +30,14 @@ webmaster: brianjbutcher65@gmail.com
 
 # Menu bar display options - true is you want item displayed on menu bar
 show-features: false
-show-fixtures: true
+show-fixtures: false
 show-members: false
+show-teams: true
 show-opinion: false
 show-admin_notes: false
 
 # Homepage - club specific values
-regular-meeting-info: We are attempting to get a Chess League going covering the Marches.
+regular-meeting-info: A Chess League going covering the Welsh Marches.
 venue-link: https://commons.wikimedia.org/wiki/File:Ludlow_Castle_from_Whitcliffe,_2011.jpg
 venue-picture: "https://upload.wikimedia.org/wikipedia/commons/5/54/Ludlow_Castle_from_Whitcliffe%2C_2011.jpg"
 venue-caption: "Ludlow Castle"
@@ -54,7 +55,7 @@ collections:
     output: false
 
   fixtures:
-    output: true
+    output: false
 
   members:
     output: false
