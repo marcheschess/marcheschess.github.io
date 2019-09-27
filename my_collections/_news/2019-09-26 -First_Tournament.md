@@ -12,11 +12,10 @@ author: Lee Davis
   * Each team entered must identify a captain who will act as the contact point with the league controller.
   * No squad lists are required but no player may play for more than one team in each competition season.‭ 
   * There is no registration fee.‭ 
-  * Matches will be played upstairs at the Herdsman Public House,‭ ‬54‭ ‬Widemarsh Street,‭ ‬Hereford HR4‭ ‬9HG‭ ‬https://www.facebook.com/TheHerdsmanPub
+  * Matches will be played upstairs at the Herdsman Public House,‭ ‬54‭ ‬Widemarsh Street,‭ ‬Hereford HR4‭ ‬9HG‭ ‬<https://www.facebook.com/TheHerdsmanPub>
   * Matches will be arranged at the discretion of the Tournament Director but will normally be played on Sunday Afternoons starting at‭ ‬2:00‭ ‬p.m.
 
-
-	The following schedule has been prepared for the‭ ‬2019-20‭ ‬season.‭  ‬Details of fixtures will follow once entries have been confirmed.‭  ‬Please note:‭ ‬this schedule is open to revision during the course of the event.‭  ‬Depending on the number of entries not all of these matchdays will be required.
+##### The following schedule has been prepared for the‭ ‬2019-20‭ ‬season.‭  ‬Details of fixtures will follow once entries have been confirmed.‭  ‬Please note:‭ ‬this schedule is open to revision during the course of the event.‭  ‬Depending on the number of entries not all of these matchdays will be required.
 
 | Matchday‭ ‬1: |‭ ‬Sunday‭ ‬13‭ ‬October‭ ‬2019 |
 | Matchday‭ ‬2: |‭ ‬Sunday‭ ‬8‭ ‬December‭ ‬2019 |
