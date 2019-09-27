@@ -33,7 +33,7 @@ show-features: false
 show-fixtures: false
 show-members: false
 show-teams: true
-show-opinion: false
+show-opinion: true
 show-admin_notes: false
 
 # Homepage - club specific values
