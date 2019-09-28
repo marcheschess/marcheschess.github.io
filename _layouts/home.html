@@ -16,7 +16,11 @@ layout: default
       <div>
 
 <!-- Count Images -->
-{{ site.homepage_images.size }}
+<script>
+  //alert( {{ site.homepage_images.size }} );
+  var i = todayspictureindex( {{ site.homepage_images.size }} );
+  //alert( i );
+</script>
 
 <!-- Use javascript to get todays image index -->
 
