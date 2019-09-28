@@ -8,13 +8,22 @@ layout: default
 
 <div class="w3-container">
   <div class="w3-row-padding">
-
     
     <div class="w3-half">
       <div>
         <h3>{{site.regular-meeting-info}}</h3>
       </div>
       <div>
+
+<!-- Count Images -->
+{{ site.homepage_images.size }}
+
+<!-- Use javascript to get todays image index -->
+
+{% for item in site.homepage_images %}
+  {{ item.fig_caption }}
+{% endfor %}
+
         <img class="w3-image" src='{{ site.venue-picture }}'>
         <figcaption>{{ site.venue-caption }}</figcaption>
       </div>
