@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homeshell
 ---
 
 <div>
@@ -11,28 +11,25 @@ layout: default
     
     <div class="w3-half">
       <div>
-        <h3>{{site.regular-meeting-info}}</h3>
       </div>
       <div>
-
-<!-- Count Images -->
-<script>
-  //alert( {{ site.homepage_images.size }} );
-  var i = todayspictureindex( {{ site.homepage_images.size }} );
-  //alert( i );
-</script>
-
-<!-- Use javascript to get todays image index -->
-
-{% for item in site.homepage_images %}
-  {{ item.fig_caption }}
-{% endfor %}
-
-        <img class="w3-image" src='{{ site.venue-picture }}'>
-        <figcaption>{{ site.venue-caption }}</figcaption>
+        <img id= "img" class="w3-image" src="https://upload.wikimedia.org/wikipedia/commons/5/54/Ludlow_Castle_from_Whitcliffe%2C_2011.jpg">
+        <figcaption id= "figcaption"></figcaption>
       </div>
     </div>
 
   </div>
 </div>
 
+<script>
+  var captionlist = "";
+  var srclist = "";
+   {% for item in site.homepage_images %}
+    if( captionlist != "" ){
+      captionlist += ",";
+      srclist += ",";
+    }
+    captionlist += "{{ item.fig_caption }}";
+    srclist += "{{ item.fig_src }}";
+  {% endfor %}
+</script>
