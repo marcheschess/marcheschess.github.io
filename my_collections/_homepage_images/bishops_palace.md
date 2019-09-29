@@ -1,5 +1,4 @@
 ---
-fig_caption: Ludlow Castle
-fig_src: "https://upload.wikimedia.org/wikipedia/commons/5/54/Ludlow_Castle_from_Whitcliffe%2C_2011.jpg"
+fig_caption: Bishop's Palace in Hereford
+fig_src: "/assets/img/bishopspalace.jpg"
 ---
-
