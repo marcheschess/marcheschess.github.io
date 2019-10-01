@@ -54,7 +54,7 @@ collections:
     output: false
 
   fixtures:
-    output: false
+    output: true
 
   members:
     output: false
