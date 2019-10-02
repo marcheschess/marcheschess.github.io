@@ -13,14 +13,19 @@ layout: default
 <br>
 
 <div class="w3-container">
-<p>If you are a player looking for a team to play in please complete the form here to get your name on the list.</p>
+<p>If you are a player looking for a team to play in please complete the form here to add your name to the list.</p>
 
-<div class="w3-panel w3-yellow">
-<form action="">
-First name: <input type="text" name="FirstName" value=""><br>
-Last name: <input type="text" name="LastName" value=""><br>
-Email: <input type="text" name="Email" value=""><br>
-<input type="submit" value="Submit">
+<div class="w3-panel w3-yellow w3-padding-large">
+<form method="POST" action="https://formspree.io/brianjbutcher65@gmail.com">
+  <label for="firstname">First Name</label>
+  <input type="text" name="firstname" placeholder="Your forename"><br>
+  <label for="secondname">Second Name</label>
+  <input type="text" name="secondname" placeholder="Your second name"><br>
+  <label for="email">Your Email Address</label>
+  <input type="email" name="email" placeholder="Your email address"><br>
+  <label for="message">Any message you want to send with this submission</label>
+  <textarea name="message" placeholder="Any other relevant information"></textarea><br>
+  <button type="submit">Send</button>
 </form>
 </div>
 
