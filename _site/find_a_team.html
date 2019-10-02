@@ -5,11 +5,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Marches Chess League</title>
   <meta name="description" content="An experimental web site template for the Marches Chess League">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" type="text/css" href="/assets/ccsite.css">
+  <link rel="stylesheet" type="text/css" href="/assets/mortimer.css">
   <link rel="canonical" href="http://localhost:4000/find_a_team.html">
   <link rel="alternate" type="application/rss+xml" title="Marches Chess League" href="/feed.xml">
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -49,33 +48,52 @@
     
     <main class="page-content" >
       <div class="wrapper">
-        <div class="w3-container">
-<p>This page is for players who are looking for a team to play for to register. It can also be used by team captains to find people who may wish to play for their team.</p>
+        <p>This page is for players who are looking for a team to play for to register. It may be used by team captains to find people who may wish to play for their team.</p>
 
 <table class="w3-table-all">
 <tr><th>Players Seeking a Team</th><th>Notes</th></tr>
 <tr><td>Brian Butcher</td><td>Test data</td></tr>
 </table> 
-</div>
 <br>
 
-<div class="w3-container">
-<p>If you are a player looking for a team to play in please complete the form here to add your name to the list.</p>
-
-<div class="w3-panel w3-yellow w3-padding-large">
-<form method="POST" action="https://formspree.io/brianjbutcher65@gmail.com">
-  <label for="firstname">First Name</label>
-  <input type="text" name="firstname" placeholder="Your forename"><br>
-  <label for="secondname">Second Name</label>
-  <input type="text" name="secondname" placeholder="Your second name"><br>
-  <label for="email">Your Email Address</label>
-  <input type="email" name="email" placeholder="Your email address"><br>
-  <label for="message">Any message you want to send with this submission</label>
-  <textarea name="message" placeholder="Any other relevant information"></textarea><br>
-  <button type="submit">Send</button>
-</form>
-</div>
-
+<div class="container w3-yellow w3-padding-large">
+  <form method="POST" action="https://formspree.io/brianjbutcher65@gmail.com">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="email">Your Email Address:</label>
+    </div>
+    <div class="col-75">
+      <p><input type="text" name="email" placeholder="Your email address"></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Message</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Anything else you want to add --" style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
 </div>
 
 
